@@ -85,4 +85,90 @@ body {
     color: #ff4e50;
     text-decoration: none;
   }
+  /* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for all pages */
+  .container {
+    text-align: center;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 2.5rem;
+    color: #ff4e50;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons styling */
+  .buttons .btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff4e50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .buttons .btn.outline {
+    background-color: white;
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+  }
+  
+  .buttons .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Form styling */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .form .btn {
+    background-color: #ff4e50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form .btn:hover {
+    background-color: #e94345;
+  }
+  
+  .switch {
+    margin-top: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .switch a {
+    color: #ff4e50;
+    text-decoration: none;
+  }
   
