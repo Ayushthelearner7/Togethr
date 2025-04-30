@@ -171,4 +171,10 @@ body {
     color: #ff4e50;
     text-decoration: none;
   }
+  input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+  }
   
